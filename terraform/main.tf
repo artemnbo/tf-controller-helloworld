@@ -5,6 +5,7 @@ terraform {
     organization = "artem-bondarenko-test-project"
 
     workspaces {
+      name = terraform.workspace
       project = "core-test"
     }
   }
