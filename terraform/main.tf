@@ -5,7 +5,7 @@ terraform {
     organization = "artem-bondarenko-test-project"
 
     workspaces {
-      tags = ["My-App"]
+      name = "tf-test"
     }
   }
 }
