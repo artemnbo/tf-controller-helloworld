@@ -5,7 +5,7 @@ terraform {
     organization = "artem-bondarenko-test-project"
 
     workspaces {
-      name = "tf-test"
+      project = "core-test"
     }
   }
 }
